@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#update-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#update-btn:hover {
+  background-color: #0062cc;
+}
+
+#content-container {
+  margin-top: 50px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#content-container p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
